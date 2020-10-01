@@ -9,7 +9,6 @@ import { NewsapiService } from "../newsapi.service";
 })
 export class FolderPage implements OnInit {
   public folder: string;
-  articles;
 
   constructor(
     private activatedRoute: ActivatedRoute,
